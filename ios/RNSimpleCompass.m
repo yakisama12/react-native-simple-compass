@@ -50,7 +50,7 @@
 - (BOOL)locationManagerShouldDisplayHeadingCalibration:(CLLocationManager *)manager
 {
     CLLocationDirection accuracy = [[manager heading] headingAccuracy];
-    return accuracy <= 0.0f || accuracy > 10.0f;
+    return false; //accuracy <= 0.0f || accuracy > 10.0f;
 }
 
 #pragma mark - React
