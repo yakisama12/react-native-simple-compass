@@ -65,5 +65,10 @@ RCT_EXPORT_METHOD(stop) {
 }
 
 RCT_EXPORT_MODULE()
+    
++ (BOOL)requiresMainQueueSetup
+{
+    return NO;
+}
 
 @end
