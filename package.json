@@ -1,16 +1,20 @@
 {
   "name": "react-native-simple-compass",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple module exposing the compass on iOS and Android",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "url": "https://github.com/yakisama12/react-native-simple-compass"
+  },
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "homepage": "https://github.com/vnil/react-native-simple-compass",
+  "author": "vnil",
+  "license": "MIT",
   "devDependencies": {
     "react-native": "*"
   }
